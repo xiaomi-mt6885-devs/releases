@@ -15,7 +15,7 @@ Copyright (C) 2023 [AngelaCooljx](https://github.com/AngelaCooljx)
 `repo init -u https://github.com/lineage/android.git -b lineage-21 --git-lfs --depth=1`  
 `repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags`  
 - Device Configuration:  
-`git clone https://github.com/xiaomi-mt6885-devs/android_device_xiaomi_cezanne-old -b crd-14-qpr2 --single-branch --depth=1 device/xiaomi/cezanne`
+`git clone https://github.com/xiaomi-mt6885-devs/android_device_xiaomi_cezanne-old -b qpr3 --single-branch --depth=1 device/xiaomi/cezanne`
 - Kernel Source:  
 `git clone https://github.com/xiaomi-mt6885-devs/android_kernel_xiaomi_mt6885.git -b cgroup-v2 --single-branch --depth=1 kernel/xiaomi/mt6885`
 - Mtk Hardware:  
@@ -41,5 +41,5 @@ https://onedrive.live.com/?cid=5A43C412343CDA85&id=5A43C412343CDA85%21se8ce24496
 
 6. 开始编译/Start building  
 `cd [YOUR ROM SOURCE]`  
-`lunch lineage_ap2a-cezanne-user`  
+`lunch lineage_cezanne-ap2a-user`  
 `make bacon`
