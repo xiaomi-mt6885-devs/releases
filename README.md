@@ -24,7 +24,7 @@ Copyright (C) 2023 [AngelaCooljx](https://github.com/AngelaCooljx)
 `git clone https://github.com/xiaomi-mt6885-devs/android_device_mediatek_sepolicy_vndr -b arrow-14.0 --single-branch device/mediatek/sepolicy_vndr`
 
 2. 手动下载 MiuiCamera.apk 替换 device/xiaomi/cezanne/MiuiCamera/system/priv-app/MiuiCamera.apk/Replace MiuiCamera.apk  
-https://onedrive.live.com/?cid=5A43C412343CDA85&id=5A43C412343CDA85%21se8ce2449639945618af8d0d0106cd011&parId=root&o=OneUp
+[https://onedrive.live.com/?cid=5A43C412343CDA85&id=5A43C412343CDA85%21se8ce2449639945618af8d0d0106cd011&parId=root&o=OneUp](https://1drv.ms/u/s!Al-iJzdLiE3_tBopVkYO8SNLUvqG?e=matq2Y)
 
 3. 使用 [Dumpyara](https://github.com/AndroidDumps/dumpyara) 等工具得到 [12.5.11.0 DUMP DIR] 目录或从本机 MIUI 12.5.11.0 提取 Vendor Blob ，使用 extract-files.sh 脚本生成 vendor tree/Extract Vendor Blob  
 `cd [YOUR ROM SOURCE]`  
