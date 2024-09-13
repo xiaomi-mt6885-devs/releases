@@ -19,7 +19,7 @@ Copyright (C) 2023 [AngelaCooljx](https://github.com/AngelaCooljx)
 - Kernel Source:  
 `git clone https://github.com/xiaomi-mt6885-devs/android_kernel_xiaomi_mt6885.git -b cgroup-v2 --single-branch --depth=1 kernel/xiaomi/mt6885`
 - Mtk Hardware:  
-`git clone https://github.com/xiaomi-mt6885-devs/android_hardware_mediatek -b 14.0 hardware/mediatek`
+`git clone https://github.com/xiaomi-mt6885-devs/android_hardware_mediatek -b fourteen hardware/mediatek`
 - Sepolicy_vndr:  
 `git clone https://github.com/xiaomi-mt6885-devs/android_device_mediatek_sepolicy_vndr -b arrow-14.0 --single-branch device/mediatek/sepolicy_vndr`
 
